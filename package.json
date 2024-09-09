@@ -10,6 +10,7 @@
   },
   "dependencies": {
     "dotenv": "^16.4.5",
+    "lottie-react": "^2.4.0",
     "next": "14.2.8",
     "react": "^18",
     "react-dom": "^18"
@@ -18,6 +19,7 @@
     "@types/node": "^20",
     "@types/react": "^18",
     "@types/react-dom": "^18",
+    "@types/react-lottie": "^1.2.10",
     "eslint": "^8",
     "eslint-config-next": "14.2.8",
     "postcss": "^8",

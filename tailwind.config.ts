@@ -9,8 +9,13 @@ const config: Config = {
   theme: {
     extend: {
       colors: {
-        background: "var(--background)",
+        bg: "#121214",
         foreground: "var(--foreground)",
+        accent: "#740CDC",
+      },
+      fontFamily: {
+        main: ["Space Mono", "sans-serif"],
+        title: ["Montserrat", "sans-serif"],
       },
     },
   },

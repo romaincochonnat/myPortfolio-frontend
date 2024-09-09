@@ -2,7 +2,7 @@ import { FC } from "react";
 
 const Footer: FC = () => {
   return (
-    <footer>
+    <footer className="max-w-[1440px] ">
       <p>&copy; 2024 My Portfolio. All rights reserved.</p>
       <nav>
         <ul>
