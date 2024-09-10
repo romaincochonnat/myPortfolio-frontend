@@ -18,7 +18,6 @@ export default function Myportfolio() {
       <Works />
       <Experience />
       <Contact />
-      <MoreAboutMe />
     </main>
   );
 }
