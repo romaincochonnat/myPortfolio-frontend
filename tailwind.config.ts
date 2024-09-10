@@ -10,12 +10,14 @@ const config: Config = {
     extend: {
       colors: {
         bg: "#121214",
+        white2: "#F4F3EE",
         foreground: "var(--foreground)",
         accent: "#740CDC",
       },
       fontFamily: {
         main: ["Space Mono", "sans-serif"],
         title: ["Montserrat", "sans-serif"],
+        inter: ["Inter", "sans-serif"],
       },
     },
   },
