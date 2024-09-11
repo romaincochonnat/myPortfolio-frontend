@@ -47,7 +47,7 @@ export const Home: FC = () => {
         >
           Romain Cochonnat
         </h1>
-        <p className="font-main text-3xl text-white uppercase">
+        <p className="font-main text-3xl text-white2 uppercase">
           Software engineer, front end & app Developer
         </p>
       </div>

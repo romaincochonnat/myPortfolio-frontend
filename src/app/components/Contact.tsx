@@ -8,7 +8,7 @@ export const Contact: FC = () => {
     <section
       id="contact"
       aria-labelledby="contact-heading"
-      className="flex font-main text-white w-full h-[966px]"
+      className="flex font-main text-white w-full h-[600px]"
     >
       <div className="w-[400px] h-full flex flex-col gap-[10px]">
         <h2

@@ -10,7 +10,7 @@ const config: Config = {
     extend: {
       colors: {
         bg: "#121214",
-        white2: "#F4F3EE",
+        white2: "#ffffff",
         foreground: "var(--foreground)",
         accent: "#740CDC",
       },
@@ -18,6 +18,15 @@ const config: Config = {
         main: ["Space Mono", "sans-serif"],
         title: ["Montserrat", "sans-serif"],
         inter: ["Inter", "sans-serif"],
+      },
+      keyframes: {
+        blink: {
+          "0%, 100%": { opacity: "1" }, // Pleine opacité au début et à la fin
+          "50%": { opacity: "0" }, // Opacité à 0 au milieu (clignotement)
+        },
+      },
+      animation: {
+        blink: "blink 2s infinite", // Classe d'animation 'animate-blink'
       },
     },
   },

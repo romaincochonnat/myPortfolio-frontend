@@ -15,12 +15,12 @@ export const Expertise: FC = () => {
       >
         My Expertise
       </h2>
-      <div className="flex gap-[10px] w-full items-stretch">
+      <div className="flex gap-[10px] w-full items-stretch text-white">
         <article className="relative w-1/3  flex flex-col gap-[31px] px-[48px] pt-[24px] pb-[48px] border-2 rounded-xl border-accent">
-          <h3 className="font-title font-semibold text-5xl text-white tracking-tight">
+          <h3 className="font-title font-semibold text-5xl  tracking-tight">
             Software Development
           </h3>
-          <p className="font-main font- text-2xl text-white">
+          <p className="font-main font- text-2xl text-white2">
             Experienced in OOP : Java, JavaScript, TypeScript
           </p>
           <div className="absolute top-[24px] left-[-39px]">
@@ -34,10 +34,10 @@ export const Expertise: FC = () => {
         </article>
 
         <article className="relative w-1/3  flex flex-col gap-[31px] px-[48px] pt-[24px] pb-[48px] border-2 rounded-xl border-accent">
-          <h3 className="font-title font-semibold text-5xl text-white tracking-tight">
+          <h3 className="font-title font-semibold text-5xl tracking-tight">
             Frontend Dev React, Next
           </h3>
-          <p className="font-main font- text-2xl text-white">
+          <p className="font-main font- text-2xl text-white2">
             Expertise in creating responsive, user-friendly web interfaces with
             a strong focus on performance and user experience.
           </p>
@@ -52,10 +52,10 @@ export const Expertise: FC = () => {
         </article>
 
         <article className="relative w-1/3  flex flex-col gap-[31px] px-[48px] pt-[24px] pb-[48px] border-2 rounded-xl border-accent">
-          <h3 className="font-title font-semibold text-5xl text-white tracking-tight">
-            Building Info Modeling{" "}
+          <h3 className="font-title font-semibold text-5xl tracking-tight">
+            Building Info Modeling
           </h3>
-          <p className="font-main font- text-2xl text-white">
+          <p className="font-main font- text-2xl text-white2">
             Experienced in integrating 3D models and data to improve
             collaboration and decision-making in construction engineering{" "}
           </p>
