@@ -52,36 +52,62 @@ export const Home: FC = () => {
         </p>
       </div>
       <div className="grid grid-cols-3 grid-rows-15 w-[621px] h-[600px]">
-        <div className="relative row-span-6 row-start-1">
-          <Image src="/moi.png" alt="" layout="fill" objectFit="contain" />
+        <div className="relative row-span-6 row-start-1 m-auto">
+          <Image
+            src="/moi.png"
+            alt=""
+            width={140}
+            height={0}
+            className="shadow-[0_0_200px_-20px_rgba(116,12,220,0.2)] rounded-2xl"
+          />
         </div>
-        <div className="relative row-span-6 row-start-2">
-          <Image src="/code1.png" alt="" layout="fill" objectFit="contain" />
+        <div className="relative row-span-6 row-start-2 m-auto">
+          <Image
+            src="/code1.png"
+            alt=""
+            width={140}
+            height={0}
+            className="shadow-[0_0_200px_-20px_rgba(116,12,220,0.2)] rounded-2xl"
+          />
         </div>
-        <div className="relative row-span-6 row-start-3">
-          <Image src="/basket.png" alt="" layout="fill" objectFit="contain" />
+        <div className="relative row-span-6 row-start-3 m-auto">
+          <Image
+            src="/basket.png"
+            alt=""
+            width={140}
+            height={0}
+            className="shadow-[0_0_200px_-20px_rgba(116,12,220,0.2)] rounded-2xl"
+          />
         </div>
-        <div className="relative row-span-6 row-start-8">
+        <div className="relative row-span-6 row-start-8 m-auto">
           <Image
             src="/marathonParis.png"
             alt=""
-            layout="fill"
-            objectFit="contain"
+            width={140}
+            height={0}
+            className="shadow-[0_0_200px_-20px_rgba(116,12,220,0.2)] rounded-2xl"
           />
         </div>
-        <div className="relative row-span-6 row-start-9">
+        <div className="relative row-span-6 row-start-9 m-auto">
           <Image
             src="/thailande.png"
             alt=""
-            layout="fill"
-            objectFit="contain"
+            width={140}
+            height={0}
+            className="shadow-[0_0_200px_-20px_rgba(116,12,220,0.2)] rounded-2xl"
           />
         </div>
-        <div className="relative row-span-6 row-start-10">
-          <Image src="/code2.png" alt="" layout="fill" objectFit="contain" />
+        <div className="relative row-span-6 row-start-10 m-auto">
+          <Image
+            src="/code2.png"
+            alt=""
+            width={140}
+            height={0}
+            className="shadow-[0_0_200px_-20px_rgba(116,12,220,0.2)] rounded-2xl"
+          />
         </div>
       </div>
-      <a href="#expertise" className="absolute left-[700px] bottom-[30px]">
+      <a href="#expertise" className="absolute left-[700px] bottom-[5px]">
         <Lottie
           animationData={animationData}
           className="flex justify-center items-center"
@@ -95,11 +121,7 @@ export const Home: FC = () => {
         }`}
       >
         <div className="relative">
-        <Lottie
-          animationData={arrowUpData}
-          className="w-28"
-          loop={true}
-        />
+          <Lottie animationData={arrowUpData} className="w-28" loop={true} />
         </div>
       </a>
     </section>

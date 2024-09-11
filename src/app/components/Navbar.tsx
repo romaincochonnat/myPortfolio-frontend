@@ -3,10 +3,10 @@ import { FC } from "react";
 const Navbar: FC = () => {
   return (
     <header>
-      <nav className="lg:flex lg:w-[1440px] lg:h-[60px] lg:px-[121px] items-center font-medium text-xl">
-        <ul className="lg:flex  text-white font-main  lg:justify-between w-full tracking-wide ">
+      <nav className="flex w-[1440px] h-[60px] pl-[121px] pr-[60px] items-center font-medium text-xl">
+        <ul className="flex  text-white font-main justify-between w-full tracking-wide ">
           <li>
-            <a href="#home" >
+            <a href="#" >
               <span className="text-accent">• </span><span className="hover:underline underline-offset-4">Home</span>
             </a>
           </li>
