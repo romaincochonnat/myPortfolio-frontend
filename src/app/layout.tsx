@@ -7,6 +7,9 @@ export const metadata: Metadata = {
   title: "Romain Cochonnat - Software Engineer, Front-end and App Developer",
   description:
     "Romain Cochonnat's Portfolio as Software Engineer with severals sections",
+  icons: {
+    icon: "/favicon.png",
+  },
 };
 
 export default function RootLayout({
