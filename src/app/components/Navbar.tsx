@@ -17,12 +17,12 @@ const Navbar: FC = () => {
           </li>
           <li>
             <a href="#works">
-              <span className="text-accent">• </span><span className="hover:underline underline-offset-4">Works</span>
+              <span className="text-accent">• </span><span className="hover:underline underline-offset-4">Work</span>
             </a>
           </li>
           <li>
             <a href="#experience">
-              <span className="text-accent">• </span><span className="hover:underline underline-offset-4">Experience</span>
+              <span className="text-accent">• </span><span className="hover:underline underline-offset-4">Experiences</span>
             </a>
           </li>
           <li>
@@ -31,8 +31,8 @@ const Navbar: FC = () => {
             </a>
           </li>
           <li>
-            <a href="#more">
-              <span className="text-accent">• </span><span className="hover:underline underline-offset-4">More about me</span>
+            <a href="#home">
+              <span className="text-accent">• </span><span className="hover:underline underline-offset-4">More *available soon*</span>
             </a>
           </li>
         </ul>

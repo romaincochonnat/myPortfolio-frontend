@@ -1,12 +1,11 @@
 "use client"; // Indique que ce fichier est un composant client
 
-import Image from "next/image";
+
 import {
   Home,
   Expertise,
   Experience,
   Contact,
-  MoreAboutMe,
   Works,
 } from "./components";
 
