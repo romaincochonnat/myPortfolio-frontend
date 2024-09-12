@@ -10,7 +10,7 @@ export const Works: FC = () => {
     <section
       id="works"
       aria-labelledby="works-heading"
-      className="flex flex-col gap-[0px] p-[60px] items-start w-full"
+      className="flex flex-col gap-[30px] p-[60px] items-start w-full"
     >
       <article className="relative w-full h-[600px]  flex ">
         <h2
@@ -33,7 +33,8 @@ export const Works: FC = () => {
               src="/telephoneAC.png"
               alt="telephone with AC brand logo"
               fill={true}
-              objectFit="contain"
+              sizes="(max-width: 768px) 100vw, (max-width: 1200px) 50vw, 33vw"
+              style={{objectFit: "contain"}}
             />
           </div>
           <div className="flex flex-col row-span-2 rounded-2xl bg-[#F4F3EE] font-inter font-bold text-lg px-[20px] py-[17px] gap-[15px]">
@@ -45,7 +46,8 @@ export const Works: FC = () => {
                 src="/grid2a.png"
                 alt="telephone with AC brand logo"
                 fill={true}
-                objectFit="contain"
+                sizes="(max-width: 768px) 100vw, (max-width: 1200px) 50vw, 33vw"
+                style={{objectFit: "contain"}}
               />
             </div>
             <p className="text-center font-medium text-xs">
@@ -61,8 +63,9 @@ export const Works: FC = () => {
               <Image
                 src="/grid2b.png"
                 alt="@romaincochonnat"
-                layout="fill"
-                objectFit="contain"
+                fill={true}
+                sizes="(max-width: 768px) 100vw, (max-width: 1200px) 50vw, 33vw"
+                style={{objectFit: "contain"}}
               />
             </a>
           </div>
@@ -72,7 +75,8 @@ export const Works: FC = () => {
                 src="/grid3.png"
                 alt="@romaincochonnat"
                 fill={true}
-                objectFit="contain"
+                sizes="(max-width: 768px) 100vw, (max-width: 1200px) 50vw, 33vw"
+                style={{objectFit: "contain"}}
               />
             </div>
           </div>
@@ -82,8 +86,9 @@ export const Works: FC = () => {
               <Image
                 src="/grid4.png"
                 alt="@romaincochonnat"
-                layout="fill"
-                objectFit="contain"
+                fill={true}
+                sizes="(max-width: 768px) 100vw, (max-width: 1200px) 50vw, 33vw"
+                style={{objectFit: "contain"}}
               />
             </div>
           </div>
@@ -92,8 +97,9 @@ export const Works: FC = () => {
               <Image
                 src="/mac.png"
                 alt="@romaincochonnat"
-                layout="fill"
-                objectFit="contain"
+                fill={true}
+                sizes="(max-width: 768px) 100vw, (max-width: 1200px) 50vw, 33vw"
+                style={{objectFit: "contain"}}
               />
             </div>
             <div className="absolute w-[314px] top-3 right-15">
@@ -116,8 +122,9 @@ export const Works: FC = () => {
                 <Image
                   src="/grid6.png"
                   alt="@romaincochonnat"
-                  layout="fill"
-                  objectFit="contain"
+                  fill={true}
+                  sizes="(max-width: 768px) 100vw, (max-width: 1200px) 50vw, 33vw"
+                  style={{objectFit: "contain"}}
                 />
               </div>
             </div>
@@ -130,11 +137,11 @@ export const Works: FC = () => {
         </h3>
         <div className="h-full w-36 flex justify-center items-center">
           <div className="relative">
-          <Lottie
-            animationData={ellipsisData}
-            className="w-[600px]"
-            loop={true}
-          />
+            <Lottie
+              animationData={ellipsisData}
+              className="w-[600px]"
+              loop={true}
+            />
           </div>
         </div>
       </article>

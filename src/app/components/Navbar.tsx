@@ -1,6 +1,6 @@
 import { FC } from "react";
 
-const Navbar: FC = () => {
+export const Navbar: FC = () => {
   return (
     <header>
       <nav className="flex w-[1440px] h-[60px] pl-[121px] pr-[60px] items-center font-medium text-xl">
@@ -41,4 +41,3 @@ const Navbar: FC = () => {
   );
 };
 
-export default Navbar;

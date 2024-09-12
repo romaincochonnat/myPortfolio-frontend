@@ -20,7 +20,7 @@ export const Expertise: FC = () => {
           <h3 className="font-title font-semibold text-5xl  tracking-tight">
             Software Development
           </h3>
-          <p className="font-main font- text-2xl text-white2">
+          <p className="font-main font- text-2xl  text-[#BCB8B1]">
             Experienced in OOP : Java, JavaScript, TypeScript
           </p>
           <div className="absolute top-[24px] left-[-39px]">
@@ -37,7 +37,7 @@ export const Expertise: FC = () => {
           <h3 className="font-title font-semibold text-5xl tracking-tight">
             Frontend Dev React, Next
           </h3>
-          <p className="font-main font- text-2xl text-white2">
+          <p className="font-main font- text-2xl text-[#BCB8B1]">
             Expertise in creating responsive, user-friendly web interfaces with
             a strong focus on performance and user experience.
           </p>
@@ -46,7 +46,7 @@ export const Expertise: FC = () => {
               src="/react-logo.png"
               alt="React logo"
               width={77}
-              height={70}
+              height={0}
             />
           </div>
         </article>

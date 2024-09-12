@@ -1,3 +1,5 @@
+"use client"; // Indique que ce fichier est un composant client
+
 import { FC } from "react";
 
 import { useEffect, useState } from "react";
