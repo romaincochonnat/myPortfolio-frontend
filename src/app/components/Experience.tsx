@@ -52,7 +52,7 @@ export const Experience: FC = () => {
             >
               Full stack developer for Artist&#39;s Crossroad application and
               other personal projects. Learning continuously by myself on
-              serveral online plateforms &#40;CodeAcademy, Udemy, FreeCodeCamps
+              several online plateforms &#40;CodeAcademy, Udemy, FreeCodeCamps,
               etc.&#41;
             </p>
           </div>
