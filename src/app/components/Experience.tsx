@@ -121,7 +121,7 @@ export const Experience: FC = () => {
             <a href="/monCV.pdf" target="_blank">
               <Image
                 src="/logo-pdf.png"
-                alt="software engineer logo"
+                alt="pdf download logo"
                 width={75}
                 height={75}
               />

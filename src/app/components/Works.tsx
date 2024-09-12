@@ -1,3 +1,5 @@
+"use client"
+
 import { FC } from "react";
 
 import Image from "next/image";
@@ -44,7 +46,7 @@ export const Works: FC = () => {
             <div className="relative h-1/5">
               <Image
                 src="/grid2a.png"
-                alt="telephone with AC brand logo"
+                alt="profil picture of 2 random people"
                 fill={true}
                 sizes="(max-width: 768px) 100vw, (max-width: 1200px) 50vw, 33vw"
                 style={{objectFit: "contain"}}
@@ -62,7 +64,7 @@ export const Works: FC = () => {
             >
               <Image
                 src="/grid2b.png"
-                alt="@romaincochonnat"
+                alt="Click here to visit AC"
                 fill={true}
                 sizes="(max-width: 768px) 100vw, (max-width: 1200px) 50vw, 33vw"
                 style={{objectFit: "contain"}}
@@ -73,7 +75,7 @@ export const Works: FC = () => {
             <div className="relative h-full w-4/5">
               <Image
                 src="/grid3.png"
-                alt="@romaincochonnat"
+                alt="Artist's Crossroad logo"
                 fill={true}
                 sizes="(max-width: 768px) 100vw, (max-width: 1200px) 50vw, 33vw"
                 style={{objectFit: "contain"}}
@@ -85,7 +87,7 @@ export const Works: FC = () => {
             <div className="relative h-full w-4/5">
               <Image
                 src="/grid4.png"
-                alt="@romaincochonnat"
+                alt="random logo"
                 fill={true}
                 sizes="(max-width: 768px) 100vw, (max-width: 1200px) 50vw, 33vw"
                 style={{objectFit: "contain"}}
@@ -96,7 +98,7 @@ export const Works: FC = () => {
             <div className="relative h-full w-4/5">
               <Image
                 src="/mac.png"
-                alt="@romaincochonnat"
+                alt="Computer screen with video demo of AC plateform inside"
                 fill={true}
                 sizes="(max-width: 768px) 100vw, (max-width: 1200px) 50vw, 33vw"
                 style={{objectFit: "contain"}}
@@ -121,7 +123,7 @@ export const Works: FC = () => {
               <div className="relative h-4/5 w-4/5">
                 <Image
                   src="/grid6.png"
-                  alt="@romaincochonnat"
+                  alt="random logo"
                   fill={true}
                   sizes="(max-width: 768px) 100vw, (max-width: 1200px) 50vw, 33vw"
                   style={{objectFit: "contain"}}

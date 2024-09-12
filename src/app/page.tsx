@@ -1,5 +1,3 @@
-"use client"; // Indique que ce fichier est un composant client
-
 import {
   Home,
   Expertise,

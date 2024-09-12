@@ -55,7 +55,7 @@ export const Expertise: FC = () => {
           <h3 className="font-title font-semibold text-5xl tracking-tight">
             Building Info Modeling
           </h3>
-          <p className="font-main font- text-2xl text-white2">
+          <p className="font-main font- text-2xl text-[#BCB8B1]">
             Experienced in integrating 3D models and data to improve
             collaboration and decision-making in construction engineering{" "}
           </p>

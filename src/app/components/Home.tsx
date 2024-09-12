@@ -57,7 +57,7 @@ export const Home: FC = () => {
         <div className="relative row-span-6 row-start-1 m-auto">
           <Image
             src="/moi.png"
-            alt=""
+            alt="picture of Romain Cochonnat"
             width={140}
             height={0}
             className="shadow-[0_0_200px_-20px_rgba(116,12,220,0.2)] rounded-2xl"
@@ -66,7 +66,7 @@ export const Home: FC = () => {
         <div className="relative row-span-6 row-start-2 m-auto">
           <Image
             src="/code1.png"
-            alt=""
+            alt="Picture of Romain Cochonnat coding"
             width={140}
             height={0}
             className="shadow-[0_0_200px_-20px_rgba(116,12,220,0.2)] rounded-2xl"
@@ -75,7 +75,7 @@ export const Home: FC = () => {
         <div className="relative row-span-6 row-start-3 m-auto">
           <Image
             src="/basket.png"
-            alt=""
+            alt="Picture of Romain Cochonnat playing basketball"
             width={140}
             height={0}
             className="shadow-[0_0_200px_-20px_rgba(116,12,220,0.2)] rounded-2xl"
@@ -84,7 +84,7 @@ export const Home: FC = () => {
         <div className="relative row-span-6 row-start-8 m-auto">
           <Image
             src="/marathonParis.png"
-            alt=""
+            alt="Picture of Romain Cochonnat running on a marathon"
             width={140}
             height={0}
             className="shadow-[0_0_200px_-20px_rgba(116,12,220,0.2)] rounded-2xl"
@@ -93,7 +93,7 @@ export const Home: FC = () => {
         <div className="relative row-span-6 row-start-9 m-auto">
           <Image
             src="/thailande.png"
-            alt=""
+            alt="Picture of Romain Cochonnat visiting Thailand"
             width={140}
             height={0}
             className="shadow-[0_0_200px_-20px_rgba(116,12,220,0.2)] rounded-2xl"
@@ -102,7 +102,7 @@ export const Home: FC = () => {
         <div className="relative row-span-6 row-start-10 m-auto">
           <Image
             src="/code2.png"
-            alt=""
+            alt="picture of romain cochonnat coding desk"
             width={140}
             height={0}
             className="shadow-[0_0_200px_-20px_rgba(116,12,220,0.2)] rounded-2xl"
