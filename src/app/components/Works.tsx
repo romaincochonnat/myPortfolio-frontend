@@ -1,4 +1,4 @@
-"use client"
+"use client";
 
 import { FC } from "react";
 
@@ -15,13 +15,7 @@ export const Works: FC = () => {
       className="flex flex-col gap-[30px] p-[60px] items-start w-full"
     >
       <article className="relative w-full h-[600px]  flex ">
-        <h2
-          id="works-heading"
-          className="font-title font-semibold text-8xl text-white"
-        >
-          My Work
-        </h2>
-        <div className="absolute top-[-98px] left-[380px] row-span-2 z-10">
+        <div className="absolute top-[-94px] left-[410px] z-10">
           <Image
             src="/telephoneTopAC.png"
             alt="telephone with AC brand logo"
@@ -29,18 +23,24 @@ export const Works: FC = () => {
             width={234}
           />
         </div>
-        <div className="relative grid grid-cols-[350px_1fr_1fr] grid-rows-4 w-full h-full gap-[30px]">
-          <div className="relative row-span-2 rounded-2xl bg-[#F4F3EE]">
+        <div className="relative grid grid-cols-2 lg:grid-cols-[330px_350px_1fr_1fr] grid-rows-4 w-full h-full gap-[30px]">
+          <h2
+            id="works-heading"
+            className="font-title font-semibold text-5xl lg:text-8xl text-white  row-span-1 lg:col-span-1 lg:row-span-4"
+          >
+            My Work
+          </h2>
+          <div className="relative row-span-1 lg:row-span-2 rounded-2xl bg-[#F4F3EE]">
             <Image
               src="/telephoneAC.png"
               alt="telephone with AC brand logo"
               fill={true}
               sizes="(max-width: 768px) 100vw, (max-width: 1200px) 50vw, 33vw"
-              style={{objectFit: "contain"}}
+              style={{ objectFit: "contain" }}
             />
           </div>
-          <div className="flex flex-col row-span-2 rounded-2xl bg-[#F4F3EE] font-inter font-bold text-lg px-[20px] py-[17px] gap-[15px]">
-            <p className="text-center text-sm">
+          <div className="flex flex-col row-span-1 lg:row-span-2 rounded-2xl bg-[#F4F3EE] font-inter font-bold text-xs lg:text-sm px-[20px] py-[17px] gap-[15px]">
+            <p className="text-center">
               The unmissable platform for 2D and 3D digital artists
             </p>
             <div className="relative h-1/5">
@@ -49,10 +49,10 @@ export const Works: FC = () => {
                 alt="profil picture of 2 random people"
                 fill={true}
                 sizes="(max-width: 768px) 100vw, (max-width: 1200px) 50vw, 33vw"
-                style={{objectFit: "contain"}}
+                style={{ objectFit: "contain" }}
               />
             </div>
-            <p className="text-center font-medium text-xs">
+            <p className="text-center font-medium text-[10px]lg:text-xs">
               We simplify exchanges between artists from different backgrounds,
               help them gain visibility, give them a foothold in the freelance
               world and make AC the crossroads for artists on the Internet.
@@ -67,30 +67,30 @@ export const Works: FC = () => {
                 alt="Click here to visit AC"
                 fill={true}
                 sizes="(max-width: 768px) 100vw, (max-width: 1200px) 50vw, 33vw"
-                style={{objectFit: "contain"}}
+                style={{ objectFit: "contain" }}
               />
             </a>
           </div>
-          <div className="row-span-2 rounded-2xl bg-[#D44E67] flex justify-center items-center">
+          <div className="row-span-1 lg:row-span-2 rounded-2xl bg-[#D44E67] flex justify-center items-center">
             <div className="relative h-full w-4/5">
               <Image
                 src="/grid3.png"
                 alt="Artist's Crossroad logo"
                 fill={true}
                 sizes="(max-width: 768px) 100vw, (max-width: 1200px) 50vw, 33vw"
-                style={{objectFit: "contain"}}
+                style={{ objectFit: "contain" }}
               />
             </div>
           </div>
 
-          <div className="rounded-2xl bg-[#F4F3EE] flex justify-center items-center">
+          <div className="hidden rounded-2xl bg-[#F4F3EE] lg:flex justify-center items-center">
             <div className="relative h-full w-4/5">
               <Image
                 src="/grid4.png"
                 alt="random logo"
                 fill={true}
                 sizes="(max-width: 768px) 100vw, (max-width: 1200px) 50vw, 33vw"
-                style={{objectFit: "contain"}}
+                style={{ objectFit: "contain" }}
               />
             </div>
           </div>
@@ -101,7 +101,7 @@ export const Works: FC = () => {
                 alt="Computer screen with video demo of AC plateform inside"
                 fill={true}
                 sizes="(max-width: 768px) 100vw, (max-width: 1200px) 50vw, 33vw"
-                style={{objectFit: "contain"}}
+                style={{ objectFit: "contain" }}
               />
             </div>
             <div className="absolute w-[314px] top-3 right-15">
@@ -126,7 +126,7 @@ export const Works: FC = () => {
                   alt="random logo"
                   fill={true}
                   sizes="(max-width: 768px) 100vw, (max-width: 1200px) 50vw, 33vw"
-                  style={{objectFit: "contain"}}
+                  style={{ objectFit: "contain" }}
                 />
               </div>
             </div>
@@ -134,7 +134,7 @@ export const Works: FC = () => {
         </div>
       </article>
       <article className="flex h-[100px] items-center">
-        <h3 className="font-title font-semibold text-5xl text-white py-[30px] inline-block">
+        <h3 className="font-title font-semibold text-3xl lg:text-5xl text-white py-[30px] inline-block">
           More To Come
         </h3>
         <div className="h-full w-36 flex justify-center items-center">

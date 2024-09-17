@@ -7,15 +7,15 @@ export const Expertise: FC = () => {
     <section
       id="expertise"
       aria-labelledby="expertise-heading"
-      className="flex flex-col gap-[32px] p-[60px] items-center w-full"
+      className="flex flex-col gap-[32px] p-[60px] items-center w-full lg:w-full overflow-x-scroll lg:overflow-x-auto"
     >
       <h2
         id="expertise-heading"
-        className="font-title font-semibold text-6xl text-white text-center"
+        className="font-title font-semibold text-4xl lg:text-6xl text-white text-center"
       >
         My Expertise
       </h2>
-      <div className="flex gap-[10px] w-full items-stretch text-white">
+      <div className=" flex gap-[10px] w-[1100px] lg:w-full items-stretch text-white ">
         <article className="relative w-1/3  flex flex-col gap-[31px] px-[48px] pt-[24px] pb-[48px] border-2 rounded-xl border-accent">
           <h3 className="font-title font-semibold text-5xl  tracking-tight">
             Software Development

@@ -6,16 +6,16 @@ export const Footer: FC = () => {
     <footer
       id="contact"
       aria-labelledby="contact-heading"
-      className="flex font-main text-white text-md w-[100%] h-[700px] pl-[60px] gap-[30px]"
+      className="flex flex-col lg:flex-row font-main text-white text-base w-full h-[700px]"
     >
-      <div className="w-[400px] h-full flex flex-col gap-[10px] pt-[30px]">
+      <div className="w-full lg:w-[420px] h-full flex flex-col gap-[10px] pt-[30px] pl-[15px]">
         <h2
           id="contact-heading"
           className="font-title font-semibold text-6xl text-center h-[100px]"
         >
           My Contacts
         </h2>
-        <div className="flex flex-col gap-[10px] h-full">
+        <div className="flex flex-row lg:flex-col gap-[10px] h-full">
           <a
             href="https://www.linkedin.com/in/romain-cochonnat-95b2a1129/"
             target="_blank"
@@ -27,7 +27,7 @@ export const Footer: FC = () => {
               width={50}
               height={0}
             />
-            <span>Linkedin</span>
+            <span className="hidden lg:block">Linkedin</span>
           </a>
           <a
             href="https://github.com/romaincochonnat"
@@ -40,7 +40,7 @@ export const Footer: FC = () => {
               width={50}
               height={0}
             />
-            <span>GitHub</span>
+            <span className="hidden lg:block">GitHub</span>
           </a>
           <a
             href="mailto:romain.cochonnat@gmail.com"
@@ -52,7 +52,7 @@ export const Footer: FC = () => {
               width={50}
               height={0}
             />
-            <span>Gmail</span>
+            <span className="hidden lg:block">Gmail</span>
           </a>
           <a href="tel:+33627991576" className="flex items-center gap-[30px]">
             <Image
@@ -61,39 +61,41 @@ export const Footer: FC = () => {
               width={50}
               height={0}
             />
-            <span>+33 6 27 99 15 76</span>
+            <span className="hidden lg:block">+33 6 27 99 15 76</span>
           </a>
-          <div className="mt-auto">
-            <div><p>&copy; 2024 My Portfolio. All rights reserved.</p>
-      <nav className="pb-[30px]">
-        <ul>
-          <li>
-            <a href="#">Home</a>
-          </li>
-          <li>
-            <a href="#expertise">Expertise</a>
-          </li>
-          <li>
-            <a href="#works">Works</a>
-          </li>
-          <li>
-            <a href="#experience">Experience</a>
-          </li>
-          <li>
-            <a href="#contact">Contact</a>
-          </li>
-          <li>
-            <a href="#contact">More about me</a>
-          </li>
-        </ul>
-      </nav></div>
+          <div className="hidden lg:block lg:mt-auto lg:text-sm">
+            <div>
+              <p>&copy; 2024 My Portfolio. All rights reserved.</p>
+              <nav className="pb-[30px]">
+                <ul>
+                  <li>
+                    <a href="#">Home</a>
+                  </li>
+                  <li>
+                    <a href="#expertise">Expertise</a>
+                  </li>
+                  <li>
+                    <a href="#works">Works</a>
+                  </li>
+                  <li>
+                    <a href="#experience">Experience</a>
+                  </li>
+                  <li>
+                    <a href="#contact">Contact</a>
+                  </li>
+                  <li>
+                    <a href="#contact">More about me</a>
+                  </li>
+                </ul>
+              </nav>
+            </div>
           </div>
         </div>
       </div>
-      <div className="w-[calc(100%-400px)] h-full grid grid-cols-5 grid-rows-6">
-        <article className="col-span-2 row-span-6 bg-[#8A817C] flex flex-col gap-[10px] py-[30px] px-[30px]">
+      <div className="w-full lg:w-[calc(100%-400px)] lg:h-full grid grid-cols-5 grid-rows-6">
+        <article className="col-span-5 lg:col-span-2 row-span-2 lg:row-span-6 bg-[#8A817C] text-xs lg:text-base flex flex-col gap-[10px] py-[6px] px-[12px] lg:py-[30px] lg:px-[30px]">
           <div className="flex justify-between w-full">
-            <div className="relative w-[100px] h-[100px]">
+            <div className="relative w-[50px] h-[50px] lg:w-[100px] lg:h-[100px]">
               <Image
                 src="/quote.png"
                 alt="quote logo"
@@ -102,7 +104,7 @@ export const Footer: FC = () => {
                 style={{ objectFit: "contain" }}
               />
             </div>
-            <div className="relative w-[100px] h-[100px] rounded-full overflow-hidden border-2">
+            <div className="relative w-[50px] h-[50px] lg:w-[100px] lg:h-[100px] rounded-full overflow-hidden border-2">
               <Image
                 src="/soufiane.png"
                 alt="soufiane ref picture"
@@ -128,9 +130,9 @@ export const Footer: FC = () => {
             <p>Fullstack web/mobile developer</p>
           </div>
         </article>
-        <article className="col-span-3 row-span-3 bg-[#430D79] flex flex-col gap-[10px] py-[30px] px-[30px]">
+        <article className="col-span-5 lg:col-span-3 row-span-2 lg:row-span-3 bg-[#430D79] text-xs lg:text-base flex flex-col gap-[10px] py-[6px] px-[12px] lg:py-[30px] lg:px-[30px]">
           <div className="flex justify-between w-full">
-            <div className="relative w-[100px] h-[100px]">
+            <div className="relative w-[50px] h-[50px] lg:w-[100px] lg:h-[100px]">
               <Image
                 src="/quote.png"
                 alt="quote logo"
@@ -139,7 +141,7 @@ export const Footer: FC = () => {
                 style={{ objectFit: "contain" }}
               />
             </div>
-            <div className="relative w-[100px] h-[100px] rounded-full overflow-hidden border-2">
+            <div className="relative w-[50px] h-[50px] lg:w-[100px] lg:h-[100px] rounded-full overflow-hidden border-2">
               <Image
                 src="/FKE.png"
                 alt="Fabrice Kerlogot ref picture"
@@ -160,9 +162,9 @@ export const Footer: FC = () => {
             <p>National BIM Referent at VINCI</p>
           </div>
         </article>
-        <article className="col-span-3 row-span-3 bg-[#F4F3EE] text-black flex flex-col gap-[10px] py-[30px] px-[30px]">
+        <article className="col-span-5 lg:col-span-3 row-span-2 lg:row-span-3 bg-[#F4F3EE] text-black text-xs lg:text-base flex flex-col gap-[10px] py-[6px] px-[12px] lg:py-[30px] lg:px-[30px]">
           <div className="flex justify-between w-full">
-            <div className="relative w-[100px] h-[100px]">
+            <div className="relative w-[50px] h-[50px] lg:w-[100px] lg:h-[100px]">
               <Image
                 src="/quote.png"
                 alt="quote logo"
@@ -171,7 +173,7 @@ export const Footer: FC = () => {
                 style={{ objectFit: "contain" }}
               />
             </div>
-            <div className="relative w-[100px] h-[100px] rounded-full overflow-hidden border-2">
+            <div className="relative w-[50px] h-[50px] lg:w-[100px] lg:h-[100px] rounded-full overflow-hidden border-2">
               <Image
                 src="/VSI.png"
                 alt="Vincent Simon ref picture"
@@ -181,7 +183,7 @@ export const Footer: FC = () => {
               />
             </div>
           </div>
-          <div className="py-[10px]">
+          <div className="py-[10px] ">
             Romain is an engineer who likes to learn and progress continuously.
             He is always motivated, rigorous, involved and curious. He has great
             potential to develop rapidly.
@@ -194,4 +196,4 @@ export const Footer: FC = () => {
       </div>
     </footer>
   );
-};
+}
