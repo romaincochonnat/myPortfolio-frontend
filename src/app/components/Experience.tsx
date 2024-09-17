@@ -29,8 +29,8 @@ export const Experience: FC = () => {
       >
         My Experiences
       </h2>
-      <div className="flex flex-col items-center gap-2 lg:gap-[30px] lg:w-[1000px] text-white2 font-main">
-        <article className="flex flex-col w-11/12  px-[48px]">
+      <div className="flex flex-col px-[16px] lg:px-[0px] items-center gap-2 lg:gap-[30px] lg:w-[1000px] text-white2 font-main">
+        <article className="flex flex-col lg:w-11/12  lg:px-[48px]">
           <div
             className="flex justify-between w-full py-[10px] px-8 font-title font-semibold text-sm lg:text-xl bg-accent rounded-md hover:cursor-pointer"
             onClick={() => setExp1IsVisible(!exp1IsVisible)}
@@ -57,7 +57,7 @@ export const Experience: FC = () => {
             </p>
           </div>
         </article>
-        <article className="flex flex-col w-11/12  px-[48px]">
+        <article className="flex flex-col lg:w-11/12  lg:px-[48px]">
           <div
             className="flex justify-between w-full py-[10px] px-8 font-title font-semibold text-sm lg:text-xl bg-[#430D79] rounded-md hover:cursor-pointer"
             onClick={() => setExp2IsVisible(!exp2IsVisible)}
@@ -86,7 +86,7 @@ export const Experience: FC = () => {
             </ul>
           </div>
         </article>
-        <article className="flex flex-col w-11/12  px-[48px]">
+        <article className="flex flex-col lg:w-11/12  lg:px-[48px]">
           <div
             className="flex justify-between w-full py-[10px] px-8 font-title font-semibold text-sm lg:text-xl bg-[#430D79] rounded-md hover:cursor-pointer"
             onClick={() => setExp3IsVisible(!exp3IsVisible)}
@@ -115,8 +115,8 @@ export const Experience: FC = () => {
             </ul>
           </div>
         </article>
-        <article className="flex flex-col gap-[30px] w-11/12 px-[48px] pb-[48px]">
-          <div className="flex items-center gap-5 w-full py-[10px] px- font-title font-semibold text-sm lg:text-3xl rounded-lg">
+        <article className="flex flex-col gap-[30px] w-full lg:w-11/12 lg:px-[48px] pb-[48px]">
+          <div className="flex items-center justify-start px-8 lg:px-0 gap-5 w-full py-[10px] px- font-title font-semibold text-sm lg:text-3xl rounded-lg">
             <h4 className="inline-block ">My CV</h4>
             <a href="/monCV.pdf" target="_blank">
               <Image

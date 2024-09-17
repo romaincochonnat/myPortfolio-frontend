@@ -8,14 +8,14 @@ export const Footer: FC = () => {
       aria-labelledby="contact-heading"
       className="flex flex-col lg:flex-row font-main text-white text-base w-full lg:h-[700px]"
     >
-      <div className="w-full lg:w-[420px] h-full flex flex-col gap-[10px] pt-[30px] pl-[15px]">
+      <div className="w-full lg:w-[420px] h-full flex flex-col gap-[10px] pt-[30px] lg:pl-[15px]">
         <h2
           id="contact-heading"
-          className="font-title font-semibold text-6xl text-center h-[100px]"
+          className="font-title font-semibold text-4xl lg:text-6xl text-center lg:h-[100px]"
         >
           My Contacts
         </h2>
-        <div className="flex flex-row lg:flex-col gap-[10px] h-full">
+        <div className="flex flex-row justify-center py-7 lg:py-0 lg:justify-normal lg:flex-col gap-[10px] h-full">
           <a
             href="https://www.linkedin.com/in/romain-cochonnat-95b2a1129/"
             target="_blank"

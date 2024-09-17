@@ -12,18 +12,21 @@ export const Works: FC = () => {
     <section
       id="works"
       aria-labelledby="works-heading"
-      className="flex flex-col gap-[30px] p-[60px] items-start w-full"
+      className="flex flex-col lg:gap-[30px] p-4 lg:p-[60px] items-start w-full"
     >
-      <article className="relative w-full h-[600px]  flex ">
-        <div className="absolute top-[-94px] left-[410px] z-10">
-          <Image
-            src="/telephoneTopAC.png"
-            alt="telephone with AC brand logo"
-            height={10}
-            width={234}
-          />
+      <article className="relative w-full h-[800px] lg:h-[600px] flex ">
+        <div className="hidden lg:block absolute w-[234px] h-[200px] top-[-110px] left-[411px] z-10">
+          <div className="relative w-full h-full">
+            <Image
+              src="/telephoneTopAC.png"
+              alt="telephone with AC brand logo"
+              fill={true}
+              sizes="(max-width: 768px) 100vw, (max-width: 1200px) 50vw, 33vw"
+              style={{ objectFit: "contain" }}
+            />
+          </div>
         </div>
-        <div className="relative grid grid-cols-2 lg:grid-cols-[330px_350px_1fr_1fr] grid-rows-4 w-full h-full gap-[30px]">
+        <div className="relative grid grid-cols-2 lg:grid-cols-[330px_350px_1fr_1fr] grid-rows-4 w-full h-full gap-2 lg:gap-[30px]">
           <h2
             id="works-heading"
             className="font-title font-semibold text-5xl lg:text-8xl text-white  row-span-1 lg:col-span-1 lg:row-span-4"
@@ -39,7 +42,7 @@ export const Works: FC = () => {
               style={{ objectFit: "contain" }}
             />
           </div>
-          <div className="flex flex-col row-span-1 lg:row-span-2 rounded-2xl bg-[#F4F3EE] font-inter font-bold text-xs lg:text-sm px-[20px] py-[17px] gap-[15px]">
+          <div className="flex flex-col justify-center row-span-1 lg:row-span-2 rounded-2xl bg-[#F4F3EE] font-inter font-bold text-[10px] lg:text-sm px-3 py-2 lg:px-[20px] lg:py-[17px] gap-1 lg:gap-[15px]">
             <p className="text-center">
               The unmissable platform for 2D and 3D digital artists
             </p>
@@ -52,7 +55,7 @@ export const Works: FC = () => {
                 style={{ objectFit: "contain" }}
               />
             </div>
-            <p className="text-center font-medium text-[10px]lg:text-xs">
+            <p className="text-center font-medium text-[8px] lg:text-xs">
               We simplify exchanges between artists from different backgrounds,
               help them gain visibility, give them a foothold in the freelance
               world and make AC the crossroads for artists on the Internet.
@@ -95,7 +98,7 @@ export const Works: FC = () => {
             </div>
           </div>
           <div className="relative row-span-2 col-span-2 rounded-2xl bg-[#F4F3EE] flex justify-center items-center">
-            <div className="relative h-full w-4/5">
+            <div className="relative h-full w-[355px] lg:w-4/5">
               <Image
                 src="/mac.png"
                 alt="Computer screen with video demo of AC plateform inside"
@@ -104,7 +107,7 @@ export const Works: FC = () => {
                 style={{ objectFit: "contain" }}
               />
             </div>
-            <div className="absolute w-[314px] top-3 right-15">
+            <div className="absolute top-20 w-[280px] lg:w-[314px]  lg:top-3 lg:right-15">
               <video
                 src="/videoAC.mp4"
                 autoPlay
@@ -134,14 +137,14 @@ export const Works: FC = () => {
         </div>
       </article>
       <article className="flex h-[100px] items-center">
-        <h3 className="font-title font-semibold text-3xl lg:text-5xl text-white py-[30px] inline-block">
+        <h3 className="font-title font-semibold text-2xl lg:text-5xl text-white py-[30px] inline-block">
           More To Come
         </h3>
-        <div className="h-full w-36 flex justify-center items-center">
+        <div className="h-full w-20 lg:w-36 flex justify-center items-center">
           <div className="relative">
             <Lottie
               animationData={ellipsisData}
-              className="w-[600px]"
+              className="w-[300px] lg:w-[600px]"
               loop={true}
             />
           </div>
