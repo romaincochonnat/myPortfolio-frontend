@@ -6,7 +6,7 @@ export const Footer: FC = () => {
     <footer
       id="contact"
       aria-labelledby="contact-heading"
-      className="flex flex-col lg:flex-row font-main text-white text-base w-full h-[700px]"
+      className="flex flex-col lg:flex-row font-main text-white text-base w-full lg:h-[700px]"
     >
       <div className="w-full lg:w-[420px] h-full flex flex-col gap-[10px] pt-[30px] pl-[15px]">
         <h2

@@ -179,7 +179,7 @@ export const Home: FC = () => {
       </a>
       <a
         href="#"
-        className={`fixed transition-all duration-500 bg-gray-200   right-[100px] bottom-[100px] w-[70px] h-[70px] z-50 flex justify-center overflow-hidden rounded-full ${
+        className={`fixed transition-all duration-500 bg-gray-200 right-[10px] bottom-[10px] lg:right-[120px] lg:bottom-[100px] w-[70px] h-[70px] z-50 flex justify-center overflow-hidden rounded-full ${
           isVisible ? " opacity-100 bg-opacity-20 " : "opacity-0 bg-opacity-0"
         }`}
       >

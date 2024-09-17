@@ -123,7 +123,7 @@ export const Experience: FC = () => {
                 src="/logo-pdf.png"
                 alt="pdf download logo"
                 width={50}
-                height={50}
+                height={75}
               />
             </a>
           </div>
