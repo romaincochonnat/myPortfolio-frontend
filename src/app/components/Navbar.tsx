@@ -14,7 +14,7 @@ export const Navbar: FC = () => {
   return (
     <>
       {/* Barre de navigation visible tout le temps sur écrans > 1024px et sur mobile si le burger menu est ouvert */}
-      <header className="min-w-full">
+      <header className="min-w-full lg:flex lg:justify-center">
         <nav className="hidden w-[1440px] h-[60px] pl-[121px] pr-[60px] items-center font-medium text-lg lg:flex">
           <ul className="flex flex-col lg:flex-row text-white font-main justify-between w-full tracking-wide">
             <li>
