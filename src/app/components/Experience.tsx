@@ -51,9 +51,9 @@ export const Experience: FC = () => {
               }  `}
             >
               Full stack developer for Artist&#39;s Crossroad application and
-              other personal projects. Learning continuously by myself on
-              several online plateforms &#40;CodeAcademy, Udemy, FreeCodeCamps,
-              etc.&#41;
+              other Freelance projects. Learning and keeping myself up-to-date
+              continuously by self-learning on several online plateforms
+              &#40;CodeAcademy, Udemy, FreeCodeCamps, etc.&#41;
             </p>
           </div>
         </article>
